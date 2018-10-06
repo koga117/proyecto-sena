@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E7DB3173-F57A-4F4C-8512-2548FA224038}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Presentacion</RootNamespace>
+    <AssemblyName>Presentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClsBotonCircular.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PCedula.cs" />
+    <Compile Include="Pfactura.cs" />
+    <Compile Include="PGestionArticulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PGestionArticulo.designer.cs">
+      <DependentUpon>PGestionArticulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PGestionCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PGestionCliente.designer.cs">
+      <DependentUpon>PGestionCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PGestionfactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PGestionfactura.designer.cs">
+      <DependentUpon>PGestionfactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PGestionservicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PGestionservicio.designer.cs">
+      <DependentUpon>PGestionservicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PInventarioMat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PInventarioMat.designer.cs">
+      <DependentUpon>PInventarioMat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ploadscreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ploadscreen.designer.cs">
+      <DependentUpon>Ploadscreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PLogin.designer.cs">
+      <DependentUpon>PLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PMenu.designer.cs">
+      <DependentUpon>PMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PPerfil.cs" />
+    <Compile Include="PRegistroempleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PRegistroempleado.designer.cs">
+      <DependentUpon>PRegistroempleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeleccionImagen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeleccionImagen.Designer.cs">
+      <DependentUpon>SeleccionImagen.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="PGestionArticulo.resx">
+      <DependentUpon>PGestionArticulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PGestionCliente.resx">
+      <DependentUpon>PGestionCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PGestionfactura.resx">
+      <DependentUpon>PGestionfactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PGestionservicio.resx">
+      <DependentUpon>PGestionservicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PInventarioMat.resx">
+      <DependentUpon>PInventarioMat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ploadscreen.resx">
+      <DependentUpon>Ploadscreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLogin.resx">
+      <DependentUpon>PLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PMenu.resx">
+      <DependentUpon>PMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PRegistroempleado.resx">
+      <DependentUpon>PRegistroempleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SeleccionImagen.resx">
+      <DependentUpon>SeleccionImagen.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Capadelogica\Capadelogica.csproj">
+      <Project>{BA411E2F-2F83-417F-A29A-B394EB17E9F9}</Project>
+      <Name>Capadelogica</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\depositphotos_151905494-stock-photo-silver-victorian-pattern-background-light.jpg" />
+    <Content Include="Resources\depositphotos_151905494-stock-photo-silver-victorian-pattern-background-light1.jpg" />
+    <None Include="Resources\negocios-y-finanzas.png" />
+    <Content Include="Resources\tarjeta-de-papel-de-coser-con-accesorios-de-costura_1284-2770.jpg" />
+    <None Include="Resources\tarjeta-de-papel-de-coser-con-accesorios-de-costura_1284-27701.jpg" />
+    <Content Include="Resources\thumb2-texture-black-background-patterns-flowers.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

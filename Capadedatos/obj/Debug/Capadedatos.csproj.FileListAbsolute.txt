@@ -1,0 +1,36 @@
+H:\Imprimir\WindowsFormsApplication23\Capadedatos\bin\Debug\Capadedatos.dll
+H:\Imprimir\WindowsFormsApplication23\Capadedatos\bin\Debug\Capadedatos.pdb
+H:\Imprimir\WindowsFormsApplication23\Capadedatos\obj\Debug\Capadedatos.csprojResolveAssemblyReference.cache
+H:\Imprimir\WindowsFormsApplication23\Capadedatos\obj\Debug\Capadedatos.dll
+H:\Imprimir\WindowsFormsApplication23\Capadedatos\obj\Debug\Capadedatos.pdb
+C:\Users\keimn\Desktop\Visual Studio 2010\WindowsFormsApplication23\Capadedatos\bin\Debug\Capadedatos.dll
+C:\Users\keimn\Desktop\Visual Studio 2010\WindowsFormsApplication23\Capadedatos\bin\Debug\Capadedatos.pdb
+C:\Users\keimn\Desktop\Visual Studio 2010\WindowsFormsApplication23\Capadedatos\obj\Debug\Capadedatos.csprojResolveAssemblyReference.cache
+C:\Users\keimn\Desktop\Visual Studio 2010\WindowsFormsApplication23\Capadedatos\obj\Debug\Capadedatos.dll
+C:\Users\keimn\Desktop\Visual Studio 2010\WindowsFormsApplication23\Capadedatos\obj\Debug\Capadedatos.pdb
+C:\Users\Valentina\Desktop\WindowsFormsApplication23\Capadedatos\bin\Debug\Capadedatos.dll
+C:\Users\Valentina\Desktop\WindowsFormsApplication23\Capadedatos\bin\Debug\Capadedatos.pdb
+C:\Users\Valentina\Desktop\WindowsFormsApplication23\Capadedatos\obj\Debug\Capadedatos.csprojAssemblyReference.cache
+C:\Users\Valentina\Desktop\WindowsFormsApplication23\Capadedatos\obj\Debug\Capadedatos.csproj.CoreCompileInputs.cache
+C:\Users\Valentina\Desktop\WindowsFormsApplication23\Capadedatos\obj\Debug\Capadedatos.dll
+C:\Users\Valentina\Desktop\WindowsFormsApplication23\Capadedatos\obj\Debug\Capadedatos.pdb
+D:\WindowsFormsApplication23\Capadedatos\obj\Debug\Capadedatos.csprojResolveAssemblyReference.cache
+D:\WindowsFormsApplication23\Capadedatos\obj\Debug\Capadedatos.dll
+D:\WindowsFormsApplication23\Capadedatos\obj\Debug\Capadedatos.pdb
+D:\WindowsFormsApplication23\Capadedatos\bin\Debug\Capadedatos.dll
+D:\WindowsFormsApplication23\Capadedatos\bin\Debug\Capadedatos.pdb
+H:\WindowsFormsApplication23\Capadedatos\bin\Debug\Capadedatos.dll
+H:\WindowsFormsApplication23\Capadedatos\bin\Debug\Capadedatos.pdb
+H:\WindowsFormsApplication23\Capadedatos\obj\Debug\Capadedatos.csprojResolveAssemblyReference.cache
+H:\WindowsFormsApplication23\Capadedatos\obj\Debug\Capadedatos.dll
+H:\WindowsFormsApplication23\Capadedatos\obj\Debug\Capadedatos.pdb
+G:\WindowsFormsApplication23\Capadedatos\bin\Debug\Capadedatos.dll
+G:\WindowsFormsApplication23\Capadedatos\bin\Debug\Capadedatos.pdb
+G:\WindowsFormsApplication23\Capadedatos\obj\Debug\Capadedatos.csprojResolveAssemblyReference.cache
+G:\WindowsFormsApplication23\Capadedatos\obj\Debug\Capadedatos.dll
+G:\WindowsFormsApplication23\Capadedatos\obj\Debug\Capadedatos.pdb
+E:\WindowsFormsApplication23\Capadedatos\bin\Debug\Capadedatos.dll
+E:\WindowsFormsApplication23\Capadedatos\bin\Debug\Capadedatos.pdb
+E:\WindowsFormsApplication23\Capadedatos\obj\Debug\Capadedatos.csprojResolveAssemblyReference.cache
+E:\WindowsFormsApplication23\Capadedatos\obj\Debug\Capadedatos.dll
+E:\WindowsFormsApplication23\Capadedatos\obj\Debug\Capadedatos.pdb
