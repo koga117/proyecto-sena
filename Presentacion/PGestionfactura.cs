@@ -44,32 +44,31 @@ namespace Presentacion
             ConjuntoDatos = Instancia.LDatosServicio(comboBox2.SelectedValue.ToString());
             textBox3.Text = ConjuntoDatos.Rows[0][1].ToString();
         }
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+            if (llcodigo_factura.Text == "" || label21.Text == "" || textBox5.Text == "" || label22.Text == "" || textBox2.Text == ""|| dateTimePicker1.Text == "")
+            {
+                MessageBox.Show("Verifique, valores incompletos", "Validacion de campos vacios", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                LGestionFactura instancia = new LGestionFactura();
+                string respuesta = instancia.LRegistrar(llcodigo_factura.Text, label21.Text, textBox5.Text, label22.Text, Convert.ToString(dateTimePicker1.Value),label4.Text);
+                if (respuesta == "1")
+                {
+                    MessageBox.Show("Registro exitoso", "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("No se pudo registrar la nueva factura,vuelva a intentarlo", "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
 
-        //private void pictureBox1_Click(object sender, EventArgs e)
-        //{
-        //    if (textBox1.Text == "" || comboBox1.Text == "" || textBox2.Text == "" || textBox3.Text=="" || dateTimePicker1.Text == ""|| textBox4.Text=="")
-        //    {
-        //        MessageBox.Show("Verifique, valores incompletos", "Validacion de campos vacios", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-        //    }
-        //    else
-        //    {
-        //        LGestionFactura instancia = new LGestionFactura();
-        //        //string respuesta = instancia.LRegistrar(textBox1.Text, comboBox1.Text, textBox2.Text, textBox3.Text, Convert.ToString(dateTimePicker1.Value),textBox4.Text, label4.Tex
-        //        if (respuesta == "1")
-        //        {
-        //            MessageBox.Show("Registro exitoso", "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
-        //        }
-        //        else
-        //        {
-        //            MessageBox.Show("No se pudo registrar la nueva factura,vuelva a intentarlo", "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        //        }
-
-        //    }
-        //    LGestionFactura instancia3 = new LGestionFactura();
-        //    DataTable tabla = new DataTable();
-        //    tabla = instancia3.Lconsultar();//invocacion 
-        //    dataGridView1.DataSource = tabla;
-        //}
+            }
+            LGestionFactura instancia3 = new LGestionFactura();
+            DataTable tabla = new DataTable();
+            tabla = instancia3.Lconsultar();//invocacion 
+            dataGridView1.DataSource = tabla;
+        }
         private void PGestionfactura_Load(object sender, EventArgs e)
         {
 
@@ -250,6 +249,8 @@ namespace Presentacion
             LGestionFactura instanciaRegistrar_factura = new LGestionFactura();
             llcodigo_factura.Text = instanciaRegistrar_factura.LRegistrarF(label20.Text, label4.Text);
         }
+
+
     }
 
 }

@@ -44,11 +44,11 @@ namespace Capadelogica
             return Instancia.DDatosPorServicio(a);
         }
         public string valor;
-        //public string LRegistrar(string a, string b, string c, string d, string e, string f,string g)
-        //{
-        //    DGestionFactura instancia = new DGestionFactura();
-        //    return instancia.DRegistrar(a, b, c, d, e,f,g);
-        //}
+        public string LRegistrar(string a, string b, string c, string d, string e, string f)
+        {
+            DGestionFactura instancia = new DGestionFactura();
+            return instancia.DRegistrar(a, b, c, d, e, f);
+        }
         public string LRegistrarF(string a, string b)
         {
             DGestionFactura instancia = new DGestionFactura();

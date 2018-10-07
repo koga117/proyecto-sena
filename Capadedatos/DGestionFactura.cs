@@ -81,28 +81,27 @@ namespace Capadedatos
             return ds;
         }
         public string recibido;
-        //public string DRegistrar(string a, string b, string c, string d, string e, string f, string g)
-        //{
-        //    //try
-        //    //{
-        //    SqlCommand insertar = new SqlCommand("Insertarfactura", CadenaConexion());
-        //    insertar.CommandType = CommandType.StoredProcedure;
-        //    insertar.Parameters.Add("@Nombre", SqlDbType.VarChar, 50).Value = a;
-        //    insertar.Parameters.Add("@Articulo", SqlDbType.VarChar, 50).Value = b;
-        //    insertar.Parameters.Add("@Valor_servicio", SqlDbType.Real).Value = c;
-        //    insertar.Parameters.Add("@fecha_entrega", SqlDbType.Date).Value = d;
-        //    insertar.Parameters.Add("@Paga", SqlDbType.Real).Value = e;
-        //    insertar.Parameters.Add("@registro", SqlDbType.BigInt).Value = f;
-        //    insertar.Parameters.Add("@Codigo_cliente", SqlDbType.BigInt).Value = g;
-        //    insertar.Connection.Open();
-        //    insertar.ExecuteNonQuery();
-        //    return "1";
-        //    //}
-        //    //catch (Exception x)
-        //    //{
-        //    //    return x.ToString();
-        //    //}
-        //}
+        public string DRegistrar(string a, string b, string c, string d, string e, string f)
+        {
+            //try
+            //{
+            SqlCommand insertar = new SqlCommand("Actualizar_factura", CadenaConexion());
+            insertar.CommandType = CommandType.StoredProcedure;
+            insertar.Parameters.Add("@codigo_factura", SqlDbType.BigInt).Value = a;
+            insertar.Parameters.Add("@Valor_total_servicios", SqlDbType.Real).Value = b;
+            insertar.Parameters.Add("@paga", SqlDbType.Real).Value = c;
+            insertar.Parameters.Add("@cambio", SqlDbType.Real).Value = d;
+            insertar.Parameters.Add("@fecha_factura", SqlDbType.Date).Value = e;
+            insertar.Parameters.Add("@registro", SqlDbType.BigInt).Value = f;
+            insertar.Connection.Open();
+            insertar.ExecuteNonQuery();
+            return "1";
+            //}
+            //catch (Exception x)
+            //{
+            //    return x.ToString();
+            //}
+        }
         public string DregistrarF(string a, string b)
         {
             SqlCommand insertarf = new SqlCommand("InsertarfacturaSimple", CadenaConexion());
